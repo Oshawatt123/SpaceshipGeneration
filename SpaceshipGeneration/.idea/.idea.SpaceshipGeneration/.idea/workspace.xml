@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d85c3ac-9493-45e4-8ec8-57eef86fa2c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/MainThrustRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/MainThrustRoot.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +47,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/AttachmentPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/RootPartInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611011317020</updated>
       <workItem from="1611011345456" duration="3103000" />
+      <workItem from="1611161721392" duration="2062000" />
+      <workItem from="1611238702861" duration="646000" />
     </task>
     <servers />
   </component>
@@ -102,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

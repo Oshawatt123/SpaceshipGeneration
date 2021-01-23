@@ -2,14 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using UnityEngine;
 
 public class RootPart : MonoBehaviour
 {
+    public bool MirrorPart;
     public bool NullSymbol;
     [SerializeField] private AttachmentPoint[] attachmentPoints;
 
-    public void Grow()
+    private void Start()
+    {
+        
+    }
+
+    public void Grow(bool slow = false)
     {
         attachmentPoints = gameObject.GetComponentsInChildren<AttachmentPoint>();
 
@@ -17,8 +24,11 @@ public class RootPart : MonoBehaviour
         
         foreach (AttachmentPoint attachmentPoint in attachmentPoints)
         {
-            attachmentPoint.SpawnAttachment();
+            if (slow)
+                Thread.Sleep(100);
+
+            attachmentPoint.SpawnAttachment(slow);
         }
     }
-    
+
 }

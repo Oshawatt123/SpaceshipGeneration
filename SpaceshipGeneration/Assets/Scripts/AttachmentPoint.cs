@@ -6,7 +6,7 @@ public class AttachmentPoint : MonoBehaviour
 {
     [SerializeField] private List<GameObject> attachments;
 
-    public void SpawnAttachment()
+    public void SpawnAttachment(bool slow = false)
     {
         // pick an attachment
         int rando = Random.Range(0, attachments.Count);
@@ -18,6 +18,6 @@ public class AttachmentPoint : MonoBehaviour
         if (newPart.GetComponent<RootPart>().NullSymbol) return;
 
         // grow off of the new part
-        newPart.GetComponent<RootPart>().Grow();
+        newPart.GetComponent<RootPart>().Grow(slow);
     }
 }

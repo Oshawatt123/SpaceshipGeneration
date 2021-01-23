@@ -16,5 +16,10 @@ public class ShipBaseInspector : Editor
         {
             shipBase.Grow();
         }
+
+        if (GUILayout.Button("FancyShipGen"))
+        {
+            shipBase.Grow(true);
+        }
     }
 }
