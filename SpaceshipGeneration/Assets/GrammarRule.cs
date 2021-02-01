@@ -11,11 +11,13 @@ public class GrammarRule : ScriptableObject
     [Serializable]
     public struct Rule
     {
-        public string Replacement;
-        public float chance;
+        public string Symbol;
+        public float Chance;
     }
 
     public Rule[] rules;
+
+    public GameObject[] Shapes;
     
     private Dictionary<string, float> rulesDict = new Dictionary<string, float>();
     // Start is called before the first frame update
@@ -23,7 +25,7 @@ public class GrammarRule : ScriptableObject
     {
         foreach (Rule rule in rules)
         {
-            rulesDict.Add(rule.Replacement, rule.chance);
+            rulesDict.Add(rule.Symbol, rule.Chance);
         }
     }
 
