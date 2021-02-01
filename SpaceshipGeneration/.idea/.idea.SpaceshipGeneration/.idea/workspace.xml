@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d85c3ac-9493-45e4-8ec8-57eef86fa2c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GrammarRule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GrammarRule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <workItem from="1611161721392" duration="2062000" />
       <workItem from="1611238702861" duration="646000" />
       <workItem from="1612172247493" duration="3138000" />
-      <workItem from="1612193299115" duration="5502000" />
+      <workItem from="1612193299115" duration="6740000" />
     </task>
     <servers />
   </component>
