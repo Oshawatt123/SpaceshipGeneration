@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d85c3ac-9493-45e4-8ec8-57eef86fa2c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/MainThrustRoot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/MainThrustRoot.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GrammarRule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RootPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/RootPartInspector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GrammarRule.cs" />
+        <option value="$PROJECT_DIR$/Assets/GrammarRule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +95,7 @@
       <workItem from="1611011345456" duration="3103000" />
       <workItem from="1611161721392" duration="2062000" />
       <workItem from="1611238702861" duration="646000" />
+      <workItem from="1612172247493" duration="3138000" />
     </task>
     <servers />
   </component>

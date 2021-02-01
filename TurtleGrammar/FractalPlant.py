@@ -11,15 +11,15 @@ grammar = "X"
 F_Rule = "FF"
 X_Rule = "F+[[X]-X]-F[-FX]+X"
 
-n = 7
+n = 6
 size = n
 
 forwardStep = 5
 angleStep = 25
-left(30)
+left(60)
 turtAngle = 0
 
-# creating the grammar strin
+# creating the grammar string
 while n > 0:
     print("#### n = " + str(n) + " ####")
     grammarList = list(grammar)
@@ -72,6 +72,7 @@ def ParseGrammar(index, level):
             left(angleStep)
             turtAngle = turtAngle - angleStep
         elif char == "[":
+            turtlePos = pos()
             personalIndex = ParseGrammar(personalIndex + 1, level + 1)
             #print("### Backed out into level " + str(level) + "###")
             penup()
