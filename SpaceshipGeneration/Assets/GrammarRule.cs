@@ -7,6 +7,7 @@ using UnityEngine;
 public class GrammarRule : ScriptableObject
 {
     public string GrammarID;
+    public int priority = 1;
 
     [Serializable]
     public struct Rule
@@ -20,13 +21,21 @@ public class GrammarRule : ScriptableObject
     public GameObject[] Shapes;
     
     private Dictionary<string, float> rulesDict = new Dictionary<string, float>();
-    // Start is called before the first frame update
+
+
+    private bool terminalRule = false;
+
+    // Awake is called before Start
     void Awake()
     {
-        foreach (Rule rule in rules)
+        if (rules.Length != 0)
         {
-            rulesDict.Add(rule.Symbol, rule.Chance);
+            foreach (Rule rule in rules)
+            {
+                rulesDict.Add(rule.Symbol, rule.Chance);
+            }
         }
+        else terminalRule = true;
     }
 
     // Update is called once per frame

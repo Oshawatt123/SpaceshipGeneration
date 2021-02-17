@@ -13,10 +13,11 @@ public class ShipGrammarV1 : MonoBehaviour
     private bool cockpitPlaced = false;
 
 
+    [Tooltip("Index 0 will be the root of the Grammar")]
     public GrammarRule[] SymbolLookup;
 
     private Tree grammarTree;
-
+    
     public Dictionary<string, GrammarRule> symbolLookUp = new Dictionary<string, GrammarRule>();
 
     private void Awake()
@@ -36,10 +37,12 @@ public class ShipGrammarV1 : MonoBehaviour
         BuildDictionary();
      
         // create tree
-        grammarTree = new Tree(new Node(symbolLookUp["H"], 0));
-        
+        grammarTree = new Tree(new Node(SymbolLookup[0], 0));
+
+        Debug.Log("##### STARTING GRAMMAR GROWTH #####");
         CreateGrammar(grammarTree.root);
         
+        Debug.Log("##### STARTING GRAMMAR PARSE ######");
         ParseGrammar(grammarTree.root);
     }
 
@@ -81,17 +84,16 @@ public class ShipGrammarV1 : MonoBehaviour
     {
         Debug.Log("Level " + level + ": " + node.ToString());
         
-        node.Grow();
-
+        // this is where I need to do context sensitive stuff for how to place each bit of the grammar
+        Instantiate(node.GetModel(), transform);
+        
         if (!node.hasNode(0))
             return;
 
         foreach (Node currentNode in node.nodes)
         {
-            // Instantiate a prefab
-            Instantiate(currentNode.GetModel(), transform);
-
             ParseGrammar(currentNode, level+1);
         }
     }
+    
 }

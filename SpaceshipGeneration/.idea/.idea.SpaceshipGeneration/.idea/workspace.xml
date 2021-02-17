@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d85c3ac-9493-45e4-8ec8-57eef86fa2c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CockpitRule.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CockpitRule.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GrammarRule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GrammarRule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hull.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hull.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thruster.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thruster.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wing.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wing.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +65,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrammarRule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" />
-        <option value="$PROJECT_DIR$/Assets/GrammarRule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/GrammarRule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" />
       </list>
     </option>
@@ -100,6 +112,9 @@
       <workItem from="1611238702861" duration="646000" />
       <workItem from="1612172247493" duration="3138000" />
       <workItem from="1612193299115" duration="6740000" />
+      <workItem from="1612541401628" duration="3331000" />
+      <workItem from="1612800214569" duration="1669000" />
+      <workItem from="1613582418484" duration="865000" />
     </task>
     <servers />
   </component>
