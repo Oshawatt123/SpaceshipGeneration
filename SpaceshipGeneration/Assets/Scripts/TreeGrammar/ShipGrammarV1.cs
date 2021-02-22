@@ -80,19 +80,46 @@ public class ShipGrammarV1 : MonoBehaviour
         }
     }
 
-    private void ParseGrammar(Node node, int level = 0)
+    private void ParseGrammar(Node node, int level = 0, Transform parent = null)
     {
         Debug.Log("Level " + level + ": " + node.ToString());
         
         // this is where I need to do context sensitive stuff for how to place each bit of the grammar
-        Instantiate(node.GetModel(), transform);
+
+        Vector3 worldPos = transform.position;
+        Quaternion worldRot = transform.rotation;
+        Transform linkPoint = null;
+
+        if (parent != null)
+        {
+            if (node.GetID() == "W")
+            {
+                worldPos = parent.position;
+                worldRot = parent.rotation;
+            }
+            linkPoint = parent.GetComponent<ShipBit>().GetLinkPoint();
+            worldPos = linkPoint.position;
+            worldRot = linkPoint.rotation;
+        }
+
+        GameObject newObj = Instantiate(node.GetModel(), worldPos, worldRot, transform);
+        ShipBit newBit = newObj.GetComponent<ShipBit>();
         
+        if (linkPoint != null)
+            newBit.Link(linkPoint.transform);
+        else
+        {
+            Debug.LogWarning("Parent: " + parent + ";" + "NewBit" + newBit);
+
+            Debug.Log(newBit.transform.name);
+        }
+
         if (!node.hasNode(0))
             return;
 
         foreach (Node currentNode in node.nodes)
         {
-            ParseGrammar(currentNode, level+1);
+            ParseGrammar(currentNode, level+1, newBit.transform);
         }
     }
     

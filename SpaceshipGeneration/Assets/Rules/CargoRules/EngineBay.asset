@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrammarID: E
   priority: 1
-  rules:
-  - Symbol: T:1.0
-    Chance: 1
+  rules: []
   Shapes:
-  - {fileID: 140240483711434677, guid: 7f1096e5b46a2fb44931507b63db1dfe, type: 3}
+  - {fileID: 140240483711434677, guid: 23c411405ae53a7459b0e267d02e6a6a, type: 3}

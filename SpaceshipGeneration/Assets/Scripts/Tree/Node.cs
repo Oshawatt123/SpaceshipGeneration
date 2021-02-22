@@ -37,10 +37,11 @@ public class Node
         // if there is nothing, don't bother
         if (rule.rules.Length == 0) return;
         
-        // for each rule, attempt to grow
+        // for each rule, attempt to grow if we hit the probability chance
         foreach (var currentRule in rule.rules)
         {
-            ParseRule(currentRule);
+            if(Random.Range(0, 1.0f) < currentRule.Chance)
+                ParseRule(currentRule);
         }
     }
 
@@ -48,6 +49,7 @@ public class Node
     {
         if (_rule.Symbol.Length == 0) return;
         
+        // Read the rule, and determine the IDs and associated probability
         Debug.Log(_rule.Symbol);
         Dictionary<string, float> ruleExpanded = new Dictionary<string, float>();
         for (int i = 0; i < _rule.Symbol.Length; i+=6)
@@ -97,5 +99,10 @@ public class Node
     public GameObject GetModel()
     {
         return rule.Shapes[Random.Range(0, rule.Shapes.Length)];
+    }
+
+    public String GetID()
+    {
+        return rule.GrammarID;
     }
 }

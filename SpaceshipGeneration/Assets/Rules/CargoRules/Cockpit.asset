@@ -18,4 +18,4 @@ MonoBehaviour:
   - Symbol: H:1.0
     Chance: 1
   Shapes:
-  - {fileID: 7262280771751199044, guid: 9a443d37f1edcbf41a7641d7fd51daed, type: 3}
+  - {fileID: 7262280771751199044, guid: e280fb4f042d1174e91d88205169740c, type: 3}
