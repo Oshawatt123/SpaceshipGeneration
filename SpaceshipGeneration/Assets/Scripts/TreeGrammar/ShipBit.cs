@@ -8,11 +8,21 @@ public class ShipBit : MonoBehaviour
 {
 
     private ShipLink[] linkPoints;
+
+
+    private bool changeSize = false;
+
+
     // Start is called before the first frame update
 
     private void Awake()
     {
         linkPoints = gameObject.GetComponentsInChildren<ShipLink>();
+        if (changeSize)
+        {
+            float scale = Random.Range(transform.localScale.magnitude * 0.8f, transform.localScale.magnitude * 1.2f);
+            transform.localScale = new Vector3(scale, scale, scale);
+        }
     }
 
     void Start()

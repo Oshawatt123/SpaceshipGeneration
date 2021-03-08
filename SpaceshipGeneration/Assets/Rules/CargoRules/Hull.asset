@@ -15,11 +15,11 @@ MonoBehaviour:
   GrammarID: H
   priority: 1
   rules:
-  - Symbol: H:0.7;E:0.3;
+  - Symbol: H:0.9;E:0.1;
     Chance: 1
-  - Symbol: W;1.0
+  - Symbol: W:1.0;
     Chance: 0.2
+  - Symbol: H:0.9;E:0.1;
+    Chance: 0.1
   Shapes:
-  - {fileID: 6488874305571608329, guid: 7e92f1d1621f19b4687f7a527afc559a, type: 3}
-  - {fileID: 8913458248001257598, guid: 19a1aa44664bc394ab76023d04c8c5fe, type: 3}
-  - {fileID: 2791915171248270788, guid: 893f069fb040b9448a919a90fb65dbf9, type: 3}
+  - {fileID: 2791915171248270788, guid: 414f14be59ac1454bbdf7727c3b62d21, type: 3}
