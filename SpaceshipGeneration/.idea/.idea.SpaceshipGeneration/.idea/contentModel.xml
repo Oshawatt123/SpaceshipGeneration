@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Lewis Arnold\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Lewis Arnold\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_SpaceshipGeneration.-1026884902.00" t="ExcludeRecursive" />
-    <e p="D:\GitHub Tings\SpaceshipGeneration\SpaceshipGeneration\SpaceshipGeneration" t="IncludeRecursive">
+    <e p="C:\Users\Lewis Arnold\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_SpaceshipGeneration.-1144256434.00" t="ExcludeRecursive" />
+    <e p="D:\GitHubTings\SpaceshipGeneration\SpaceshipGeneration\SpaceshipGeneration" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AttachmentPoint.cs" t="Include" />
           <e p="Editor" t="Include">
+            <e p="CameraViewer.cs" t="Include" />
             <e p="RootPartInspector.cs" t="Include" />
             <e p="ShipBaseInspector.cs" t="Include" />
+            <e p="ShipBuilderHelpWindow.cs" t="Include" />
+            <e p="ShipBuilderWindow.cs" t="Include" />
+            <e p="SmblLkup_Inspector.cs" t="Include" />
+            <e p="TestingWindow.cs" t="Include" />
+            <e p="TGV2_Inspector.cs" t="Include" />
+            <e p="TreeViewWindow.cs" t="Include" />
           </e>
+          <e p="RadiatorGames.cs" t="Include" />
           <e p="RootPart.cs" t="Include" />
           <e p="ShipBase.cs" t="Include" />
           <e p="Tree" t="Include">
             <e p="Node.cs" t="Include" />
             <e p="Tree.cs" t="Include" />
+          </e>
+          <e p="Tree Grammar v2" t="Include">
+            <e p="SymbolLookup.cs" t="Include" />
+            <e p="TreeGrammarV2.cs" t="Include" />
           </e>
           <e p="TreeGrammar" t="Include">
             <e p="GrammarRule.cs" t="Include" />
@@ -26,6 +38,7 @@
             <e p="ShipGrammarV1.cs" t="Include" />
             <e p="ShipLink.cs" t="Include" />
           </e>
+          <e p="TreeGrammarBase.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

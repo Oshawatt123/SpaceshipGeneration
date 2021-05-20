@@ -16,10 +16,6 @@ MonoBehaviour:
   priority: 1
   rules:
   - Symbol: H:0.9;E:0.1;
-    Chance: 1
-  - Symbol: W:1.0;
-    Chance: 0.2
-  - Symbol: H:0.9;E:0.1;
-    Chance: 0.1
+    Chance: 0.8
   Shapes:
   - {fileID: 2791915171248270788, guid: 414f14be59ac1454bbdf7727c3b62d21, type: 3}

@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class ShipGrammarV1 : MonoBehaviour
+public class ShipGrammarV1 : TreeGrammarBase
 {
 
     public static ShipGrammarV1 instance;
@@ -16,8 +16,6 @@ public class ShipGrammarV1 : MonoBehaviour
     [Tooltip("Index 0 will be the root of the Grammar")]
     public GrammarRule[] SymbolLookup;
 
-    private Tree grammarTree;
-    
     public Dictionary<string, GrammarRule> symbolLookUp = new Dictionary<string, GrammarRule>();
 
     private void Awake()
@@ -122,5 +120,5 @@ public class ShipGrammarV1 : MonoBehaviour
             ParseGrammar(currentNode, level+1, newBit.transform);
         }
     }
-    
+
 }

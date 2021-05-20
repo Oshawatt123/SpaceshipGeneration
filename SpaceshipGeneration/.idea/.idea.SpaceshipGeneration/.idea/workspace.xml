@@ -23,18 +23,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceshipGeneration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GrammarRule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GrammarRule.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PBR Material Bundle Vol1/Ultimate Sci-Fi Panel Materials/Materials/scifi_panel_48.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PBR Material Bundle Vol1/Ultimate Sci-Fi Panel Materials/Materials/scifi_panel_48.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rules/CargoRules/Cockpit.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rules/CargoRules/Cockpit.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rules/CargoRules/EngineBay.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rules/CargoRules/EngineBay.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Rules/CargoRules/Hull.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rules/CargoRules/Hull.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rules/CargoRules/Wing.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rules/CargoRules/Wing.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/Cockpit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceshipBits/V1 Prefabs/Cockpit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipGrammarV1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipGrammarV1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceshipBits/V2/Prefabs/HullPiece4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceshipBits/V2/Prefabs/HullPiece4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +42,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4546799-A4AB-4267-88E4-204C69507924/09/0d95e427/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RootPart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/RootPartInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TreeViewWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ShipBuilderHelpWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/RootPartInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/SmblLkup_Inspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4546799-A4AB-4267-88E4-204C69507924/fa/6f0fb611/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RootPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/RingBit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipLink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4546799-A4AB-4267-88E4-204C69507924/09/0d95e427/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree Grammar v2/TreeGrammarV2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tree Grammar v2/SymbolLookup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammarBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/GrammarRule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipGrammarV1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipLink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/CameraViewer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ShipBuilderWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachmentPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShipBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6E2FA0A-4741-4CD2-AC33-237924761B45/77/d93589c0/EditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TestingWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/TGV2_Inspector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,14 +78,25 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBaseInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RootPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrammarRule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" />
         <option value="$PROJECT_DIR$/Assets/GrammarRule.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipGrammarV1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipLink.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/RingBit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammarBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipGrammarV1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/SmblLkup_Inspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/ShipBit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TreeGrammar/GrammarRule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tree Grammar v2/SymbolLookup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TGV2_Inspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TreeViewWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Tree.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TestingWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/CameraViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tree Grammar v2/TreeGrammarV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tree/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBuilderHelpWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ShipBuilderWindow.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +144,19 @@
       <workItem from="1612541401628" duration="3331000" />
       <workItem from="1612800214569" duration="1669000" />
       <workItem from="1613582418484" duration="865000" />
-      <workItem from="1614022520527" duration="7505000" />
+      <workItem from="1614022520527" duration="8212000" />
+      <workItem from="1615394424470" duration="3742000" />
+      <workItem from="1615409384875" duration="7643000" />
+      <workItem from="1615417294146" duration="2478000" />
+      <workItem from="1615484892013" duration="9535000" />
+      <workItem from="1616348628943" duration="816000" />
+      <workItem from="1616415854884" duration="1525000" />
+      <workItem from="1616521196277" duration="465000" />
+      <workItem from="1617375724411" duration="11756000" />
+      <workItem from="1617620731861" duration="9373000" />
+      <workItem from="1617711039683" duration="5645000" />
+      <workItem from="1620128854854" duration="10687000" />
+      <workItem from="1620204772760" duration="930000" />
     </task>
     <servers />
   </component>
@@ -145,9 +178,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1611011835903">
+    <state x="670" y="198" key="RiderGenerateDialog" timestamp="1615411280315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611011835903" />
+    <state x="670" y="198" key="RiderGenerateDialog/0.0.1920.1040/-1080.-659.1080.1880@0.0.1920.1040" timestamp="1615411280315" />
+    <state x="-1080" y="-506" width="1096" height="1049" key="dock-window-1" timestamp="1620133910157">
+      <screen x="-1080" y="-659" width="1080" height="1880" />
+    </state>
+    <state x="-1011" y="107" width="981" height="1116" key="dock-window-1/0.0.1920.1040/-1080.-659.1080.1880@-1080.-659.1080.1880" timestamp="1615486043969" />
+    <state x="-1080" y="-506" width="1096" height="1049" key="dock-window-1/0.0.1920.1040/-1080.-659.1080.1880@0.0.1920.1040" timestamp="1620133910157" />
+    <state x="-730" y="-252" key="search.everywhere.popup" timestamp="1617380755707">
+      <screen x="-1080" y="-659" width="1080" height="1880" />
+    </state>
+    <state x="-730" y="-252" key="search.everywhere.popup/0.0.1920.1040/-1080.-659.1080.1880@-1080.-659.1080.1880" timestamp="1617380755707" />
   </component>
 </project>
